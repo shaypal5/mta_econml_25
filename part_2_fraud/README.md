@@ -19,15 +19,21 @@ By the end of this session, you will be able to:
 
 ## 🗂️ Project Structure
 
-| Folder / File | Description |
-|---------------|-------------|
+| File | Description |
+|------|-------------|
 | `data/imbl_fraud.csv` | Pre-sampled PaySim dataset (fraud rate ~6%) |
-| `notebooks/01_baseline_model.ipynb` | EDA + baseline model with confusion matrix and metrics |
-| `notebooks/02_imbalance_handling.ipynb` | SMOTE + balanced ensemble models + PR/ROC curves |
-| `notebooks/03_calibration_thresholds.ipynb` | Calibration, predict_proba, top-k targeting |
-| `notebooks/04_bonus_cost_sensitive.ipynb` | (Optional) Custom thresholds + business impact modeling |
-| `activities/decision_policy_prompt.md` | In-class discussion prompt: How would *you* deploy a model? |
+| `notebooks/01_baseline_model_ex.ipynb` | 📝 Exercise – EDA + baseline model with metrics |
+| `notebooks/01_baseline_model_sol.ipynb` | ✅ Solution – EDA + baseline model completed |
+| `notebooks/02_imbalance_handling_ex.ipynb` | 📝 Exercise – SMOTE + balanced ensemble models |
+| `notebooks/02_imbalance_handling_sol.ipynb` | ✅ Solution – SMOTE + balanced ensemble models |
+| `notebooks/03_calibration_thresholds_ex.ipynb` | 📝 Exercise – Score calibration, top-k targeting |
+| `notebooks/03_calibration_thresholds_sol.ipynb` | ✅ Solution – Score calibration, top-k targeting |
+| `notebooks/04_bonus_cost_sensitive_ex.ipynb` | 📝 (Optional) Exercise – Custom thresholds + costs |
+| `notebooks/04_bonus_cost_sensitive_sol.ipynb` | ✅ (Optional) Solution – Custom thresholds + costs |
 | `utils/metrics_helpers.py` | Reusable functions: PR@k, calibration plot, confusion matrix |
+| `activities/decision_policy_prompt.md` | In-class discussion prompt: How would *you* deploy a model? |
+| `problem_generation/` | Code to generate the imbalanced dataset (you can ignore it) |
+
 
 ---
 
